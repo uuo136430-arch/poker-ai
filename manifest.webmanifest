@@ -1,0 +1,36 @@
+{
+  "name": "扑克 AI 控制台 v1.25",
+  "short_name": "扑克AI",
+  "description": "扑克 AI 控制台 v1.25：可自走打完整局的 personal agent；默认河牌档 CFR+ 求解、面对加注门槛修正、极端对手自动跳过求解、松凶价值加注、翻前尺度/开池宽度/3bet 宽度/3bet 防守宽度与尺度剥削、翻后价值尺度按对手跟注画像分档、跟注站读数按门槛校准、对平跟者的隔离加注、4bet 宽度剥削、翻后诈唬频率按每街原始弃牌率放大、对手模型变化检测门控、多路底池与边池；v1.25 新增「每手独立随机流」成对验收台（同副牌 + 同一注入随机数，标准误从 ±13 压到 ±3.6 bb/100），并实现「面对大 3bet 按底池赔率收紧」（默认关，13 对手池均 +0.2±0.8 / −2.0±0.9 bb/100 不赚钱）。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b0f14",
+  "theme_color": "#0e3323",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
